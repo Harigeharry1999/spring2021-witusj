@@ -1,0 +1,102 @@
+---
+title: "R Notebook"
+output: html_notebook
+Author: Ise Jan Reimering
+Reviewer: Joey van den Berg
+---
+
+
+## Libraries
+
+```{r}
+install.packages("readxl")
+install.packages("tidyverse")
+install.packages("googlesheets4")
+install.packages("class")
+install.packages("caret")
+install.packages("ggplot2")
+
+library(readxl)
+library(tidyverse)
+library(googlesheets4)
+library(class)
+library(caret)
+library(ggplot2)
+```
+
+
+## Busines Understanding
+With this data there is an attempt to accurately say based on 5 factors whether a house is occupied or empty.
+
+## Data Understanding
+To understand the data there is a view of the first 6 rows there is a summary and the internal structure.
+
+```{r}
+url <- "https://raw.githubusercontent.com/HAN-M3DM-Data-Mining/assignments/master/datasets/KNN-occupancy.csv"
+rawDF <- read.csv(ulr)
+
+summary(rawDF)
+head(rawDF)
+str(rawDF)
+```
+
+## Data Preparation
+To make a KNN model the data needs to be prepared.Here the data has been normalized. After the normalization the clean dataset was created, a training and a test was made and labels were created for the training and test set. 
+
+```{r}
+cleanDF <- rawDF[-1]
+head(cleanDF)
+
+str(cleanDF)
+
+summary(cleanDF[,c(1,2,3,4,5))
+
+cntDiag <- table(cleanDF$Occupancy)
+propDiag <- round(prop.table(cntDiag) * 100 , digits = 1)
+
+cntDiag
+
+propDiag
+
+cleanDF$occupancy <- factor(cleanDF$Occupancy, levels = c("0", "1"), labels = c("Occupied", "Empty")) %>% relevel("Empty")
+head(cleanDF, 10)
+
+summary(cleanDF[c("Temperature", "Humidity", "Light", "CO2", "HumidityRatio")])
+
+normalize <- function(x) { 
+  return ((x - min(x)) / (max(x) - min(x))) 
+}
+
+cleanDF_n <- as.data.frame(lapply(cleanDF[,c(1,2,3,4,5)], normalize))
+
+str(cleanDF_n)
+summary(cleanDF_n)
+
+clean_train <- cleanDF_n(1:7000, )
+clean_test <- cleanDF_n(7001:8143, )
+
+clean_train_target <- cleanDF(1:7000, 6)
+clean_test_target <- cleanDF(7001:8143, 6)
+```
+
+
+## Modeling
+Here the KNN model was created with the prepared data.
+
+```{r}
+m1 <- knn(train = clean_train, test = clean_test, cl == clean_train_target, k = 91)
+head(m1)
+
+table(clean.test.target, m1)
+```
+
+
+## Evaluation and Deployment
+The model will be evaluated and deployed here.
+
+```{r}
+confusionMatrix(m1, clean_test_target, negative = NULL, dnn = c("Prediction", "True"))
+```
+
+
+reviewer adds suggestions for improving the model
