@@ -1,6 +1,6 @@
 ---
 title: "Assigment - Data Driven Decision Making"
-author: name author here
+author: Ise Jan Reimering 
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_notebook:
@@ -8,23 +8,25 @@ output:
     toc_depth: 2
 ---
 
-Search Youtube for a suitable business case example on data driven decision making and copy the embed code below.
 
-<---- Watch this video if you don't know how to embed video's ---->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/63wt3TgGGxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<---- Replace this video with your business case example ---->
 
 
 ## Why was data driven decision making (3DM) useful in this business case?
 
-Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
+The purpose of the algorithm was to match supply and demand to maximize revenue and profit. The ultimate goal is to make the supply equal to the demand as an economic model of price determination in a market. In short: When there is more demand prices go up enticing drivers to start chauffeuring people around and when supply is higher drop prices to make the demand equal to the supply. 
 
 ## How did the organization apply 3DM?
 
-Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
+They used data mining to gather as much data as possible to ensure the best representation of what is happening in the real world. Using this data they have decided to create fluctuating prices for rides to ensure more revenue and in turn more profit for the organization by influencing the supply and demand. But not just for this problem Uber uses data driven decision making to improve their business, they also use this for other decisions such as how to pay their drivers: per mile or per minute. 
 
 ## What can the organization do with 3DM that they couldn’t do before?
 
-Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
+They could create supply and demand by increasing or decreasing prices. They can also make better decisions based on data for their customers and drivers. Hayley MCgonigle says this: "Lately most improvements within the Uber app is to keep drivers busy. Anytime you don't have a rider that's of course lost wages right there." She also says that the Uber app latest updates feel like they are there to make the drivers happier. 
+
+However there is also a downside which is shown by Mustafa Mocklet. He says: "Wages for drivers have gone down year after year." Four years ago when he started driving for Uber he had to drive 40 hours a week, now he has to driver 60 to 80 hours a week in order to pay for his bills and expenses. 
+
+Both of these cases are made by Uber drivers. These people do not work for Uber. Uber itself says wages have gone in both directions and they point out that this is both benefitial for their drivers as well as their customers. 
+
+In short: Uber collects data from millions of customers rides. They use this to uptimize their business model and that is the new world of economics according to Susan Athey.

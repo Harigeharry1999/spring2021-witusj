@@ -7,19 +7,21 @@ output:
     toc_depth: 2
 ---
 
-Search Youtube for suitable business case examples on data driven business. Copy the embed code below.
 
-<---- Embed code here ---->
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G3IW5RNSGcE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ## What features define a data driven business?
 
-Write your analysis here. Use illustrations from the case study and the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
+Data is centralized and organized, data governance policies are in place, and both data an analytics acces is integrated into tools. A business that wants to go data driven it's important to track the design of your data imput and tools and test these constantly. Looking at your data is also really important for a data driven business. When you understand your data you can use the data to make decisions which inform the you/the business.Noa Tamir says: " if you do not look at your data, the Datasaurus will eat you." 
 
 ## What are the important features of a data culture?
 
-Write your analysis here. Use illustrations from the case study and the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations.
+Some of the important roles of a data culture are trust, access and knowledge. To get everyone involved, everyone has to understand why a data culture is important. This can not be done with code, which not everyone understands, but with stories to give everyone insights to what a data driven business can do for you/company.
+
+It is important to ask yourself the question: "How to use numbers in decision making?" You have to know what numbers you are using to make the correct correlations and not make spurious correlations. For example in the United States the per capita consumption of mozzarella cheese correlates with civil engineering doctorates awarded, however this would probably be a spurious correlation, one should not be used to predict the others. This is one of the examples that not all correlations are necessary meaningful. 
+
+
 
 ## What are the transformation steps towards a mature data driven business?
-Write your analysis here. Use illustrations from the case study and the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations.
 
+Use data scientist to help understand your data. It is never a bad idea to talk to them to get a better understanding of your data. To mature with a data driven business it is important to use Business intelligence tools to retrieve, analyze, transform and report data. With this tool it is important to have a reporting process to obtain underlying figures to explain decisions. This can enable a company to use their data to their own advantage (Durcevic 2020). Next to reporting it's important to manage your data this can involve, collecting, storing, organizing, protecting, verifying, and processing essential data and making it available to your company. A benefit of data management is a reduction in the amount of potential errors that can be made (blue-pencil, 2020). After managing your data it is important to provide the company with a working strategy. First the company must obtain a clear insight in what it wants to accomplish with the data, with this it is important to know as a company where your current position is and where you want to go (Ahmad, S., 2020). When your strategy is clear, the company can start making a data inventory. Data inventory lists are datasets that are managed by the company. The list has information like owner, frequency of update and file format. Some of the benefits of a data inventory are: staff collaboration, security, opening data to the public, data quality goes up, performance can be managed, it is easier to identify missed data and there is more centralisation and coordination within the company regarding data (Laudon, 2021). 

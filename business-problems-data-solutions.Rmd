@@ -1,6 +1,6 @@
 ---
 title: "Assigment - Data Problems vs Data Solutions"
-author: name author here
+author: Ise Jan
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_notebook:
@@ -10,17 +10,38 @@ output:
 
 Search Youtube for a suitable business case example on data driven decision making and copy the embed code below.
 
-<---- Embed code here ---->
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jH2B3sl9_8c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen data-external="1"></iframe>
 
 ## What was the business problem?
 
+Looking at investments from a strategic perspective. "The finance guy" should look at more than only what did investments in "sales" do for my company, but also look at other variables such as: the economy, returns, shop-to-commit accuracy and marketing (as an example). In a nutshell: Which levers should the decision maker pull to get the best bang for buck? Looking at the marginal ROI where should the decision maker invest the next $100k. 
+
 Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
+
 
 ## How was it translated into a data mining problem?
 
-Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations.
+One of the hardest things to do for this project was the adoption of the model and the gathering of the data.
+
+Once the raw data was gathered Natalie used software to look for patterns in large batches of data, so the businesses she worked for could learn more about their investment opportunities within their companies.
+
+To realize this model she used marginal ROI of different departments to see which area the best for investments.
+
+To create a model for the marginal ROI the company. There are a couple questions:
+Where should I invest additional money?
+Where should I take money from?
+
+The problem was created to a data mining problem by creating an investment optimization model. The next step is to create a Marginal ROI for each variable by time period. Which create a visualization of where you should invest if you want your return in for example a quarter, a year or 12-18 months. Here it's incredibly important to look at the business case. The goal is to create a model that shows a more holistic view of the company.
 
 ## What is the realized business value?
 
-Write your analysis here. Use the information from the course literature as a starting point for your argumentation. Find other reliable sources that support your analysis. Apply proper citations. 
+The purpose was to understand what investments impact the company's overall revenue in the short and long term.
+Evaluates investments across all functions of the company.
+Considers current levels of investment and synergistic impacts of investments.
+
+The goal was to create a tool for finance and executive teams to scenario plan the best investments for the company
+
+This tool wil create a visualization that can be understood by everyone, a ten year old should be able to see what is going on. In Natalie Kortum's case the CMO said she had a C in stats, which she had to take into account when presenting her findings. She sais this was really useful for her, because now she exactly knew what kind of visualization/findings she had to present to her CMO. 
+
+The business value here was to create a tool which shows relevant information to executives (decision makers) to determine what the best areas are to invest.
+
